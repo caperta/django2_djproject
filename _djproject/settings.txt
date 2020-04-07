@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "open-in-browser.default": "chrome"
+}

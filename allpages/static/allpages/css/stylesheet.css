@@ -1,0 +1,85 @@
+/* Site-Wide Style Sheet (Optional) */
+
+/* Google Fonst (optional) */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Source+Code+Pro|Source+Sans+Pro&display=swap');
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+
+/*dark color black
+light color white
+*/
+
+body {
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    background-color:olive;
+    color:black;
+}
+h1, h2, h3 {
+    font-family: 'Montessarat', sans-serif;
+    margin: lrem 0 0 0;
+} 
+code{
+    font-family: 'source Code Pro', monospace;
+}
+
+
+header{
+
+    top: 0px;
+    height: 60px;
+    line-height: 60px;
+    background-color: brown;
+
+}
+nav{
+position: absolute;
+top: 0;
+right: 0;
+height: 60px;
+background-color: brown;
+line-height: 60px;
+z-index: 32000;
+text-align: right;
+text-transform: uppercase;
+
+}
+
+nav a {
+    display:inline-block;
+    font-size: 1.1em;
+    margin-left: 1.25em;
+    line-height: 100%;
+
+
+
+}
+
+main{
+    position: relative;
+    z-index: 100;
+    margin: 60px 4rem 4rem 48px;
+    padding: 0 1rem;
+    background: blanchedalmond;
+}
+
+
+footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    line-height: 20px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.4em;
+  
+    
+}
+
